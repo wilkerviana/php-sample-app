@@ -6,7 +6,7 @@
 
 ***Importante:***
 
-Intruções sobre modelo de execução e entregáveis pode mser obtidas no Portal do Aluno;
+Instruções sobre modelo de execução e entregáveis podem ser obtidas no [diretório de documentação](https://github.com/fiapsecdevops/php-sample-app/docs) ou no portal do aluno;
 
 Duvidas podem ser enviadas para <profhelder.pereira@fiap.com.br>
 
@@ -14,5 +14,5 @@ Esta app foi adaptada do exemplo contido [neste artigo](https://www.tutorialrepu
 
 A estrutura foi criada com base nas seguintes tags:
 
-- unstable-0.1: Versão de testes SEM conexão com o banco para a primeira parte da NAC;
-- stable-0.1:   Versão COM as linhas de conexão com o banco configuradas, será necessário que o MySQL esteja operante para testes;
+- frontend-0.1: Versão de testes SEM conexão com o banco para a primeira parte da NAC;
+- stable:  Versão COM as linhas de conexão com o banco configuradas, será necessário que o MySQL esteja operante para testes faltando apenas a criação do Dockerfile da aplicação/mysql;
