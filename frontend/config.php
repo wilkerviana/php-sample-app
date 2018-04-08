@@ -6,7 +6,7 @@ define('DB_PASSWORD', ''); // Adicionar também uma senha ao SGBD para o usuári
 define('DB_NAME', 'demo');
  
 // Remova a linha de comentário abaixo para testar a comunicação com o Banco:
-
+/*
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
  
 // Check connection
@@ -15,4 +15,5 @@ if($link === false){
 }
 
 // Remova a linha de comentário abaixo para testar a comunicação com o Banco:
+*/
 ?>

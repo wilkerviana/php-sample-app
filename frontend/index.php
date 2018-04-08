@@ -8,8 +8,8 @@
 
     A estrutura foi criada com base nas seguintes tags:
 
-     * unstable-0.1: Versão de testes SEM conexão com o banco para a primeira parte da NAC;
-     * stable-0.1:   Versão COM as linhas de conexão com o banco configuradas, será necessário que o MySQL esteja operante para testes;
+     * frontend-0.1: Versão de testes SEM conexão com o banco para a primeira parte da NAC;
+     * stable:   Versão COM as linhas de conexão com o banco configuradas, será necessário que o MySQL esteja operante para testes;
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -57,7 +57,7 @@
                     // "git checkout tags/rc-1.0.0 -b <nome-da-nova-branch>
                     //
                     // Remova a linha de comentário abaixo para testar a comunicação com o Banco:
-
+                    /*
                     $sql = "SELECT * FROM students";
                     if($result = mysqli_query($link, $sql)){
                         if(mysqli_num_rows($result) > 0){
@@ -100,6 +100,7 @@
                     mysqli_close($link);
 
                     // Remova a linha de comentário abaixo para testar a comunicação com o Banco:
+                    */
                     ?>
                 </div>
             </div>        
