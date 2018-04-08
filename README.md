@@ -6,7 +6,7 @@
 
 ***Importante:***
 
-Instruções sobre modelo de execução e entregáveis podem ser obtidas no [diretório de documentação](https://github.com/fiapsecdevops/php-sample-app/docs) ou no portal do aluno;
+Instruções sobre modelo de execução e entregáveis podem ser obtidas no [diretório de documentação](https://github.com/fiapsecdevops/php-sample-app/tree/master/docs) ou no portal do aluno;
 
 Duvidas podem ser enviadas para <profhelder.pereira@fiap.com.br>
 
