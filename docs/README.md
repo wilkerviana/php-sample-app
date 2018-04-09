@@ -57,4 +57,12 @@ A documentação criada deverá ser suficiente para execução da aplicação se
 
 ---
 
+# Questão Extra
+Configurar o processo de build de imagens automático usando a integração entre o git e o Docker Hub, a aplicação deverá iniciar um processo de build toda vez que uma nova tah for gerada, documentar o processo e adicionar na documentação o link para o repositório no Docker Hub para validação; 
+
+**“Valor” da questão extra**
+Essa questão não contempla o escopo da avaliação por tanto não entra na contagem de 0 a 10 para atribuição de nota, ao invés disso o processo devidamente configurado é validado valerá 1.5 pontos extras na PS;
+
+---
+
 Boa Avaliação!
