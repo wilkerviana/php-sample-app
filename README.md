@@ -2,6 +2,34 @@
 
 ***nac:*** Criação de uma aplicação no formato "CRUD" executada em containers com base na linguagem "PHP" e no banco de dados "MySQL";
 
+Para utilizar este container basta criar um arquivo ".env" no diretório root da sua aplicação, com as seguintes variáveis:
+
+````
+    DB_SERVER=[nome do container de db] -> aplicação utiliza o "backend"
+    DB_NAME=[nome do banco de dados] -> nesse caso a aplicação está utilizando "demo"
+    DB_USERNAME=[usuario mysql]
+    DB_PASSWORD=[senha usuario mysql]
+````
+Feito isso baixe o container:
+
+````
+    docker pull wilkerviana/php-sample-app
+````
+
+Por fim, execute o comando:
+````
+    docker-compose up -d
+````
+
+## That's all folks! 🤓🖖🏼
+
+---
+### Builds da aplicação
+ As instruções de como configurar os builds para subir a aplicação do *Docker* :
+
+ - [Frontend](https://github.com/wilkerviana/php-sample-app/blob/master/frontend/README.md)
+ - [Backend](https://github.com/wilkerviana/php-sample-app/blob/master/backend/README.md)
+
 ---
 
 ***Importante:***
