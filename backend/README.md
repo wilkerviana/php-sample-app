@@ -1,6 +1,6 @@
 # Estrutura do container
 
-Link Docker hub: [frontend-fiap-php](https://hub.docker.com/r/wilkerviana/backend-fiap-php/)
+Link DockerHub: [backend-fiap-php](https://hub.docker.com/r/wilkerviana/backend-fiap-php/)
 
 ## 1. Dockerfile
 A partir de um arquivo **Dockerfile** na pasta "php-sample-app/backend", foi realizada a configuração através de comandos utilizados para criar a build de uma imagem do Docker e também executar instâncias de containers.
