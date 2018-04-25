@@ -1,0 +1,33 @@
+version: '3'
+services:
+  php:
+    build: ./frontend
+    image: wilkerviana/frontend-fiap-php
+    ports:
+      - 3000:80
+    networks:
+      - php-sample-network
+    links:
+      - db
+    volumes:
+      - ./frontend:/var/www/html
+    env_file: ./.env
+    container_name: frontend
+  db:
+    build: ./backend
+    image: wilkerviana/backend-fiap-php
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      MYSQL_ROOT_PASSWORD: ''
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    networks:
+      - php-sample-network
+    volumes:
+      - /var/lib/mysql
+    env_file: ./.env
+    container_name: backend
+networks:
+  php-sample-network:
+    driver: bridge
